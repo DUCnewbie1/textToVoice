@@ -5,7 +5,7 @@ import os
 
 def choose_text_file():
     filepath = filedialog.askopenfilename(
-        title="Chọn file văn bản",
+        title="Chọn file văn bản định dạng txt",
         filetypes=[("Text files", "*.txt")]
     )
     if filepath:
